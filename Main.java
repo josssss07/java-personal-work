@@ -23,7 +23,7 @@ public class Main implements ActionListener{
 
     Main(){
         j1 = new JLabel("Emp No: " );
-        j2 = new JLabel("Emp Name: ");
+        j2 = new JLabel("Password: ");
         j3 = new JLabel(" ");
         p1 = new JPasswordField(20);
         t1 = new JTextField(20);
@@ -38,7 +38,7 @@ public class Main implements ActionListener{
         jp.add(j3);
         jp.add(b1);
 
-        jf = new JFrame();
+        jf = new JFrame(`);
         jf.setSize(600, 500);
         jf.add(jp);
         jf.setVisible(true);
